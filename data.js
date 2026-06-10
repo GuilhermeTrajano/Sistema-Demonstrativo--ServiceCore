@@ -9,10 +9,10 @@ const SC = (() => {
 
   // ---- Técnicos ---------------------------------------------------------
   const technicians = [
-    { id: "T1", name: "João Mendes",     initials: "JM", region: "Zona Sul",    field: true,  avgTime: 2.4, firstFix: 0.91, jobs: 142, color: "#7C3AED" },
+    { id: "T1", name: "João Mendes",     initials: "JM", region: "Zona Sul",    field: true,  avgTime: 2.4, firstFix: 0.91, jobs: 142, color: "#4F46E5" },
     { id: "T2", name: "Carla Nogueira", initials: "CN", region: "Centro",      field: true,  avgTime: 2.9, firstFix: 0.86, jobs: 128, color: "#0EA5E9" },
     { id: "T3", name: "Rafael Souza",    initials: "RS", region: "Zona Norte",  field: false, avgTime: 3.3, firstFix: 0.79, jobs: 97,  color: "#F59E0B" },
-    { id: "T4", name: "Beatriz Lima",    initials: "BL", region: "Zona Oeste",  field: true,  avgTime: 2.6, firstFix: 0.88, jobs: 115, color: "#22C55E" },
+    { id: "T4", name: "Beatriz Lima",    initials: "BL", region: "Zona Oeste",  field: true,  avgTime: 2.6, firstFix: 0.88, jobs: 115, color: "#10B981" },
     { id: "T5", name: "Diego Farias",    initials: "DF", region: "Litoral",     field: false, avgTime: 3.0, firstFix: 0.82, jobs: 88,  color: "#EF4444" },
   ];
   const techById = (id) => technicians.find((t) => t.id === id);

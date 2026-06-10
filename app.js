@@ -51,8 +51,8 @@
   const techAvatar = (t) =>
     `<span class="tech"><span class="tech__av" style="background:${t.color}">${t.initials}</span>${esc(t.name)}</span>`;
 
-  const TL_COLOR = { open: "#7C3AED", assign: "#3B82F6", visit: "#F59E0B", wait: "#F59E0B", fix: "#22C55E", close: "#22C55E" };
-  const TL_BG = { open: "var(--primary-soft)", assign: "#E8EFFD", visit: "#FEF3DC", wait: "#FEF3DC", fix: "#DCFCE7", close: "#DCFCE7" };
+  const TL_COLOR = { open: "#4F46E5", assign: "#2563EB", visit: "#D97706", wait: "#D97706", fix: "#059669", close: "#059669" };
+  const TL_BG = { open: "var(--primary-soft)", assign: "#E8EFFD", visit: "#FEF3C7", wait: "#FEF3C7", fix: "#D1FAE5", close: "#D1FAE5" };
 
   // ===================================================================
   //  Gráfico de barras (atendimentos por semana)
